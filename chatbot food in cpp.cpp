@@ -80,7 +80,7 @@ int main() {
     for (auto &item : order) {
         total += menu[item];
     }
-    cout << "Total: $" << total << endl;
+    cout << "Total: " << total << endl;
     vector<int> path = dijkstra(0, 2);
     cout << "Path: ";
     for (auto &vertex : path) {
